@@ -1,0 +1,299 @@
+
+#first{
+    background-color: #00aaf6;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    height: 25px; 
+}
+
+#first a{
+    color:white;
+    text-decoration:none;
+}
+#first1 a{
+    padding-right: 5px;
+}
+#icons a{
+    padding-left: 10px;
+}
+.container-fluid a{
+    font-weight: bolder;
+}
+.navbar-brand{
+    padding-left: 200px;
+}
+
+#navbarNav{
+    display:flex;
+    justify-content:end;
+    padding-right: 200px;
+}
+
+#block{
+    display:flex;
+    flex-direction:column;
+    height:100%;
+    width:100%;
+}
+#FirstBlock{
+    background-color: #c3eaff;
+    width:100%;
+    height: 400px;
+    display:flex;
+    flex-direction: row;
+    justify-content:center;
+}
+#imgblock img{
+    width:450px;
+   height:100%; 
+   padding-left:40px;
+
+}
+#textblock {  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    /* background-color: bisque; */
+    width:42%;
+    text-align:start; 
+    margin-bottom:20px;
+    align-items: start;
+}
+#SecondBlock {
+    background-color: white;
+    width: 100%;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    margin:0 auto;
+
+    
+}
+#imgtext{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-content:center;
+    text-align: center;
+    height:80%;
+    margin-bottom: 20px;
+    align-items: center;
+
+}
+
+#txt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    width: 45%;
+    text-align: start;
+    /* gap: 10px; */
+    align-items: start;
+    padding-right :30px;
+}
+#imgtext img{
+    height:100%;
+    width:380px;
+   padding:20px;
+}
+#iconBlock{
+   display:flex;
+   flex-direction:row;
+   justify-content:center;
+   align-content:center;
+}
+#iconBlock div{
+    padding: 40px;
+}
+.dashed-line{
+    height:5px;
+    width: 100px; 
+   background-color:grey;
+    border-bottom: 5px dotted black;
+    align-self: center;
+}
+#ThirdBlock{
+    display:flex;
+    background-color: aliceblue;
+    width: 100%;
+    height: 500px;
+    flex-direction: column;
+    padding:40px;
+
+}
+#servicesBlock{
+    display:flex;
+    flex-direction:column;
+    align-content:center;
+    padding :20px;
+    text-align:center;
+}
+#cards{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+    align-content:center;
+    height:80%;
+    width:97%;
+}
+#cards div{
+    background-color: white;
+    height:180px;
+    width:300px;
+}
+
+#icon1{
+    position:relative;
+    /* display:block;
+    margin-right:auto;
+    margin-left: auto; */
+    /* z-index:1;  */
+    /* width:100px;
+    height:100px; */
+    border-radius:70%;
+    border:  2px solid black;
+    margin-top:-50px;
+}
+#para{
+    align-self:start;
+}
+#iconBlock div p{
+    background: linear-gradient(to right, black,grey);
+     -webkit-text-fill-color: transparent;
+     -webkit-background-clip: text;
+     font-weight:bold;
+}
+.cardp{
+    color :black;
+    font-weight: bolder;
+}
+.about{
+    font-size:12px;
+}
+.card{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    border-color: white;
+    padding:5px;
+}
+#card2{
+  border-color: aqua;
+}
+#but{
+    align-self: center;
+  padding-right:10px ;
+}
+.footer{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+    align-content:center;
+    height:200px;
+    padding:20px;
+    color:white;
+    background-image: url(https://img.freepik.com/free-photo/abstract-grunge-decorative-relief-navy-blue-stucco-wall-texture-wide-angle-rough-colored-background_1258-28311.jpg?w=1380&t=st=1690540761~exp=1690541361~hmac=9efb082c366c6249b2d5c9d2275f087d1923cd63bbd3166a4e22e33da3e508f9);
+}
+.sentence{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-content:center;
+    text-align: start;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:20px;
+    align-content: center;
+}
+#Button{
+    align-self:start;
+    width:50%;
+}
+/* Add the CSS for #FirstBlock, #SecondBlock, #ThirdBlock, and other elements as it is */
+
+/* Media Query for screens smaller than 768px (e.g., mobile phones) */
+@media (max-width: 768px) {
+    #FirstBlock {
+        flex-direction: column;
+        height: auto;
+    }
+
+    #imgblock img {
+        width: 100%;
+        height: auto;
+        padding: 0;
+    }
+
+    #textblock {
+        width: 100%;
+        padding: 20px;
+    }
+
+    #SecondBlock {
+        height: auto;
+    }
+
+    #imgtext {
+        flex-direction: column;
+    }
+
+    #txt {
+        width: 100%;
+        padding: 20px;
+    }
+
+    #imgtext img {
+        width: 100%;
+        height: auto;
+        padding: 0;
+    }
+
+    #iconBlock {
+        flex-direction: column;
+    }
+
+    #iconBlock div {
+        padding: 10px;
+    }
+
+    #ThirdBlock {
+        height: auto;
+    }
+
+    #servicesBlock {
+        text-align: center;
+    }
+
+    #cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 80%;
+        margin: 10px;
+    }
+
+    .footer {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+
+    .sentence,
+    .form {
+        text-align: center;
+    }
+
+    #Button {
+        width: 100%;
+    }
+}
